@@ -23,9 +23,6 @@ export default function Home() {
           <h1 className="font-display text-5xl tracking-[0.12em] uppercase md:text-7xl">
             Welcome
           </h1>
-          <p className="mx-auto mt-8 max-w-xl text-sm leading-relaxed font-light md:text-base">
-            {site.tagline}
-          </p>
         </div>
       </section>
 

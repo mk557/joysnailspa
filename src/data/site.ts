@@ -14,6 +14,7 @@ export const site = {
       "https://www.facebook.com/Joys-Nail-Spa-107453230706564/",
   },
   copyright: "© 2026 Joy's Nail & Spa",
+  tagline: "Experience the Best Beauty Services from the most luxurious salon in the area. Here at Joy's Nail & Spa, we strive to give our clients the best service you deserve."
 };
 
 export const navItems = [

@@ -13,8 +13,11 @@ import type { NextConfig } from "next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  crossOrigin: 'anonymous',
   images: {
     remotePatterns: [
+      { hostname: "localhost:3000" }, { hostname: "yourdomain.com" },
+
       {
         protocol: "https",
         hostname: "**.cdninstagram.com",
