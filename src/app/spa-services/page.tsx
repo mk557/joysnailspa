@@ -28,7 +28,7 @@ export default function SpaServicesPage() {
                 className="border-b border-tan/20 py-3 text-sm text-charcoal"
               >
                 <p>{item.name}</p>
-                <p className="mt-1 text-muted">{item.detail}</p>
+                <p className="mt-1 text-muted"></p>
               </li>
             ))}
           </ul>
